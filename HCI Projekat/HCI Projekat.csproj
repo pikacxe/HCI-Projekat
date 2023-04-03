@@ -1,0 +1,426 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>HCI_Projekat</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="covers\3Peat.png" />
+    <None Remove="covers\4 THE LOW.png" />
+    <None Remove="covers\Activated.png" />
+    <None Remove="covers\Aint No Fun.png" />
+    <None Remove="covers\All the Smoke.png" />
+    <None Remove="covers\ANOTHER ONE.png" />
+    <None Remove="covers\Backseat.png" />
+    <None Remove="covers\Bad Ass Bitches.png" />
+    <None Remove="covers\Big Burna.png" />
+    <None Remove="covers\Big Daddy Wiz.png" />
+    <None Remove="covers\Breath Control.png" />
+    <None Remove="covers\Bye Haters.png" />
+    <None Remove="covers\DIRTY WHITE VANS.png" />
+    <None Remove="covers\Don%27t Text Don%27t Call.png" />
+    <None Remove="covers\Dont Change You.png" />
+    <None Remove="covers\Drums Drums Drums.png" />
+    <None Remove="covers\Everything New.png" />
+    <None Remove="covers\Girl Next Door %28Remix%29.png" />
+    <None Remove="covers\Girl Next Door.png" />
+    <None Remove="covers\How The Story Goes.png" />
+    <None Remove="covers\How We Do It.png" />
+    <None Remove="covers\Iced Out Necklace.png" />
+    <None Remove="covers\Jalapeno.png" />
+    <None Remove="covers\Justice %28Get Up, Stand Up%29.png" />
+    <None Remove="covers\KHALIFA MODE.png" />
+    <None Remove="covers\Lie To Me.png" />
+    <None Remove="covers\Memory Lane.png" />
+    <None Remove="covers\Million Dollar Moment.png" />
+    <None Remove="covers\NeverDrinkingAgain.png" />
+    <None Remove="covers\One Whole Day.png" />
+    <None Remove="covers\Ordinary Life.png" />
+    <None Remove="covers\Pop That Trunk.png" />
+    <None Remove="covers\Pose.png" />
+    <None Remove="covers\POV.png" />
+    <None Remove="covers\Put You On.png" />
+    <None Remove="covers\Retail.png" />
+    <None Remove="covers\Santos Party House.png" />
+    <None Remove="covers\SH SH SH.png" />
+    <None Remove="covers\Si Me Gano Un Grammy.png" />
+    <None Remove="covers\So High.png" />
+    <None Remove="covers\Substance.png" />
+    <None Remove="covers\Sweet Yamz.png" />
+    <None Remove="covers\The Thrill.png" />
+    <None Remove="covers\Too Late.png" />
+    <None Remove="covers\Toxic.png" />
+    <None Remove="covers\Used To Be %28Remix%29.png" />
+    <None Remove="covers\Used To Be.png" />
+    <None Remove="covers\Yea Yup.png" />
+    <None Remove="descriptions\3Peat.rtf" />
+    <None Remove="descriptions\4 THE LOW.rtf" />
+    <None Remove="descriptions\Activated.rtf" />
+    <None Remove="descriptions\Aint No Fun.rtf" />
+    <None Remove="descriptions\All the Smoke.rtf" />
+    <None Remove="descriptions\ANOTHER ONE.rtf" />
+    <None Remove="descriptions\Backseat.rtf" />
+    <None Remove="descriptions\Bad Ass Bitches.rtf" />
+    <None Remove="descriptions\Big Burna.rtf" />
+    <None Remove="descriptions\Big Daddy Wiz.rtf" />
+    <None Remove="descriptions\Breath Control.rtf" />
+    <None Remove="descriptions\Bye Haters.rtf" />
+    <None Remove="descriptions\DIRTY WHITE VANS.rtf" />
+    <None Remove="descriptions\Don%27t Text Don%27t Call.rtf" />
+    <None Remove="descriptions\Dont Change You.rtf" />
+    <None Remove="descriptions\Drums Drums Drums.rtf" />
+    <None Remove="descriptions\Everything New.rtf" />
+    <None Remove="descriptions\Girl Next Door.rtf" />
+    <None Remove="descriptions\How The Story Goes.rtf" />
+    <None Remove="descriptions\How We Do It.rtf" />
+    <None Remove="descriptions\Iced Out Necklace.rtf" />
+    <None Remove="descriptions\Jalapeno.rtf" />
+    <None Remove="descriptions\Justice %28Get Up, Stand Up%29.rtf" />
+    <None Remove="descriptions\KHALIFA MODE.rtf" />
+    <None Remove="descriptions\Memory Lane.rtf" />
+    <None Remove="descriptions\Million Dollar Moment.rtf" />
+    <None Remove="descriptions\Never Lie.rtf" />
+    <None Remove="descriptions\NeverDrinkingAgain.rtf" />
+    <None Remove="descriptions\One Whole Day.rtf" />
+    <None Remove="descriptions\Ordinary Life.rtf" />
+    <None Remove="descriptions\Pop That Trunk.rtf" />
+    <None Remove="descriptions\Pose.rtf" />
+    <None Remove="descriptions\POV.rtf" />
+    <None Remove="descriptions\Put You On.rtf" />
+    <None Remove="descriptions\Retail.rtf" />
+    <None Remove="descriptions\Santos Party House.rtf" />
+    <None Remove="descriptions\SH SH SH.rtf" />
+    <None Remove="descriptions\Si Me Gano Un Grammy.rtf" />
+    <None Remove="descriptions\So High.rtf" />
+    <None Remove="descriptions\Substance.rtf" />
+    <None Remove="descriptions\Sweet Yamz.rtf" />
+    <None Remove="descriptions\template.rtf" />
+    <None Remove="descriptions\The Thrill.rtf" />
+    <None Remove="descriptions\Too Late.rtf" />
+    <None Remove="descriptions\Toxic.rtf" />
+    <None Remove="descriptions\Used To Be.rtf" />
+    <None Remove="descriptions\Yea Yup.rtf" />
+    <None Remove="logo.jpg" />
+    <None Remove="noimage.png" />
+    <None Remove="resources\check.png" />
+    <None Remove="resources\data.xml" />
+    <None Remove="resources\unchecked.png" />
+    <None Remove="template.rtf" />
+    <None Remove="wiz.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="covers\3Peat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\4 THE LOW.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Activated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Aint No Fun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\All the Smoke.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\ANOTHER ONE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Backseat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Bad Ass Bitches.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Big Burna.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Big Daddy Wiz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Breath Control.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Bye Haters.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\DIRTY WHITE VANS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Don't Text Don't Call.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Dont Change You.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Drums Drums Drums.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Everything New.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Girl Next Door (Remix).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Girl Next Door.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\How The Story Goes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\How We Do It.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Iced Out Necklace.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Jalapeno.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Justice (Get Up, Stand Up).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\KHALIFA MODE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Lie To Me.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Memory Lane.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Million Dollar Moment.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\NeverDrinkingAgain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\One Whole Day.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Ordinary Life.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Pop That Trunk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Pose.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\POV.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Put You On.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Retail.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Santos Party House.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\SH SH SH.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Si Me Gano Un Grammy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\So High.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Substance.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Sweet Yamz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\The Thrill.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Too Late.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Toxic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Used To Be (Remix).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Used To Be.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="covers\Yea Yup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\3Peat.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\4 THE LOW.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Activated.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Aint No Fun.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\All the Smoke.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\ANOTHER ONE.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Backseat.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Bad Ass Bitches.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Big Burna.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Big Daddy Wiz.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Breath Control.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Bye Haters.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\DIRTY WHITE VANS.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Don't Text Don't Call.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Dont Change You.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Drums Drums Drums.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Everything New.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Girl Next Door.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\How The Story Goes.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\How We Do It.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Iced Out Necklace.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Jalapeno.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Justice (Get Up, Stand Up).rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\KHALIFA MODE.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Memory Lane.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Million Dollar Moment.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Never Lie.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\NeverDrinkingAgain.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\One Whole Day.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Ordinary Life.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Pop That Trunk.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Pose.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\POV.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Put You On.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Retail.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Santos Party House.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\SH SH SH.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Si Me Gano Un Grammy.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\So High.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Substance.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Sweet Yamz.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\template.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\The Thrill.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Too Late.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Toxic.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Used To Be.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="descriptions\Yea Yup.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\check.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\noimage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\unchecked.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\wiz.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

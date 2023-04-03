@@ -1,0 +1,122 @@
+﻿<Window x:Class="HCI_Projekat.AddOrEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:HCI_Projekat" 
+        mc:Ignorable="d"
+        Title="AddOrEdit" Height="800" Width="1200"
+        Style="{StaticResource TemplateStyle}"
+        WindowStartupLocation="CenterScreen" 
+        Loaded="Window_Loaded">
+    <Border Style="{StaticResource RoundedBorder}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*"/>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+
+            </Grid.RowDefinitions>
+            <TextBlock Style="{StaticResource TopBarTransparent}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" MouseLeftButtonDown="Window_MouseLeftButtonDown"/>
+
+            <Border x:Name="imgBorder"  Margin="15" Grid.Row="1" Grid.ColumnSpan="2" Width="300" Height="300" >
+                <Border.Style>
+                    <Style TargetType="Border">
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="CornerRadius" Value="3"/>
+                        <Setter Property="BorderBrush" Value="{StaticResource GreenGradient}"/>
+                    </Style>
+                </Border.Style>
+                <Image x:Name="CoverImg" Source="{Binding CoverUrl}" >
+                    <Image.Effect>
+                        <DropShadowEffect BlurRadius="35" Color="LightSlateGray" Opacity="40"/>
+                    </Image.Effect>
+                </Image>
+            </Border>
+            <Label x:Name="lblTitle" Content="Add new record" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="15 0" FontSize="30"/>
+            <Line Style="{StaticResource BaseLine}" StrokeThickness="10" Margin="0" Grid.Row="0"  Grid.ColumnSpan="8"  X2="1200"/>
+
+            <Label x:Name="lblName" Content="Name :" Grid.Column="0" Grid.Row="2" Style="{StaticResource CenteredLabel}"/>
+            <TextBox x:Name="tbxName" Text="{Binding Name}"  Grid.Column="1"  Grid.Row="2" Style="{StaticResource CommonTextBox}" TextChanged="textBoxValidateColorOnChanged"/>
+            <TextBlock x:Name="tbName" Text="{Binding Name}" Grid.Column="1"  Grid.Row="2" Style="{StaticResource CommonTextBlock}" FontWeight="Medium"  Visibility="Hidden"/>
+            <Label x:Name="lblYear" Content="Year :" Grid.Column="0" Grid.Row="3" Style="{StaticResource CenteredLabel}"/>
+            <TextBox x:Name="tbxYear" Text="{Binding Year}" Grid.Column="1" Grid.Row="3" Style="{StaticResource CommonTextBox}" TextChanged="textBoxValidateColorOnChanged"/>
+            <TextBlock x:Name="tbYear" Text="{Binding Year}" Grid.Column="1"  Grid.Row="3" Style="{StaticResource CommonTextBlock}" FontWeight="Medium"  Visibility="Hidden"/>
+            <Label x:Name="lblLink" Content="Link :" Grid.Column="0" Grid.Row="4" Style="{StaticResource CenteredLabel}"/>
+            <TextBox x:Name="tbxLink" Text="{Binding SpotifyLink}" Grid.Column="1" Grid.Row="4"  Style="{StaticResource CommonTextBox}" TextChanged="textBoxValidateColorOnChanged"/>
+            <Label x:Name="lblCover" Content="Cover :" Grid.Column="0" Grid.Row="5" Style="{StaticResource CenteredLabel}"/>
+            <Button x:Name="btnBrowse" Grid.Column="1"  Grid.Row="5" Content="Browse 🔎" Style="{StaticResource SaveButton}"
+                BorderBrush="Olive" Background="#D8FFAD" Foreground="#4A8F00"
+                Margin="20 10"  Click="btnBrowse_Click"/>
+            <Border Grid.Column="2" Grid.Row="1" Grid.RowSpan="5" Margin="0 15 25 10">
+                <Border.Style>
+                    <Style TargetType="Border">
+                        <Setter Property="BorderThickness" Value="1.5"/>
+                        <Setter Property="BorderBrush">
+                            <Setter.Value>
+                                <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                                    <GradientStop Color="DarkGray" Offset="0.05"/>
+                                    <GradientStop Color="#4C5760" Offset="0.15"/>
+                                    <GradientStop Color="#4C5760" Offset="0.85"/>
+                                    <GradientStop Color="DarkGray" Offset="0.95"/>
+                                </LinearGradientBrush>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Border.Style>
+                <StackPanel >
+                    <Label x:Name="lblDescription" Content="Description" Style="{StaticResource CenteredLabel}" Margin="0 5"/>
+                    <ToolBar Name="MainToolbar" Padding="5 0 0 0">
+                        <ToggleButton Command="EditingCommands.ToggleBold" Name="btnBold" Content="𝔹" Style="{StaticResource CustomToggleButton}"/>
+                        <Separator />
+                        <ToggleButton Command="EditingCommands.ToggleItalic" Name="btnItalic" Content="𝑰" Style="{StaticResource CustomToggleButton}"/>
+                        <Separator />
+                        <ToggleButton Command="EditingCommands.ToggleUnderline" Name="btnUnderline" Content="U̲" Style="{StaticResource CustomToggleButton}"/>
+                        <Separator />
+                        <ComboBox Name="cmbFontFamily" Width="150" SelectionChanged="cmbFontFamily_SelectionChanged" />
+                        <xctk:ColorPicker x:Name="colorPicker" Margin="10 0"
+                                      AvailableColorsSortingMode="HueSaturationBrightness"
+                                      ButtonStyle="{StaticResource ColorPicker}" 
+                                      Width="100" Height="25"
+                                      DropDownBackground="White"
+                                      HeaderBackground="White"
+                                      BorderThickness="1"
+                                      SelectedColorChanged="colorPicker_SelectedColorChanged"/>
+                        <ComboBox Name="cmbFontSize" Width="80" SelectionChanged="cmbFontSize_SelectionChanged"/>
+                    </ToolBar>
+                    <RichTextBox x:Name="rtfDescription" Height="450" FontSize="20"
+                             SelectionChanged="rtfDescription_SelectionChanged"
+                             TextChanged="rtfDescription_TextChanged"
+                             Margin="10 0 10 0" Padding="10"/>
+                    <Label x:Name="lblNumOfWords" Content="Number of words: "
+                       Height="40" Width="300" 
+                       Style="{StaticResource CenteredLabel}" 
+                       HorizontalAlignment="Left" Foreground="DarkGray"
+                       Margin="10 0 0 0"/>
+                </StackPanel>
+            </Border>
+
+
+            <Button x:Name="btnSave" Style="{StaticResource SaveButton}" Grid.Column="2" Grid.Row="0" Height="50" Width="50" Margin="0 0 90 10" HorizontalAlignment="Right"  Click="btnSave_Click"/>
+            <Button x:Name="btnExit" Style="{StaticResource XButton}" Grid.Column="2" Grid.Row="0" Margin="0 0 20 10" HorizontalAlignment="Right" Click="btnExit_Click"/>
+            <Label Content="Date added:" Grid.Column="2" Grid.Row="6" Foreground="Gray"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top" Margin="100 5 0 5"/>
+            <Label Content="{Binding DateAdded}" Grid.Column="2" Grid.Row="6" Foreground="Gray"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Top" Margin="150 5"/>
+            <Line Style="{StaticResource BaseLine}" StrokeThickness="10" Grid.Row="7"  Grid.ColumnSpan="8"  X2="1200" VerticalAlignment="Center"/>
+
+        </Grid>
+    </Border>
+</Window>

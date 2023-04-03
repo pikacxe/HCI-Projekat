@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSingle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Single>
+    <CoverUrl>covers/NeverDrinkingAgain.png</CoverUrl>
+    <Name>#NeverDrinkingAgain</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/0LTBVBoCdL2FSGJIPvqKc8</SpotifyLink>
+    <Description>descriptions/NeverDrinkingAgain.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/3Peat.png</CoverUrl>
+    <Name>3Peat</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/5kkvz7fNonOAM83ZjaR0GX</SpotifyLink>
+    <Description>descriptions/3Peat.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/4 THE LOW.png</CoverUrl>
+    <Name>4 THE LOW</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/4QLfATGC8Rt4p1DVhbC7Bu</SpotifyLink>
+    <Description>descriptions/4 THE LOW.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/ANOTHER ONE.png</CoverUrl>
+    <Name>ANOTHER ONE</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/26y1j3uFW7kmEXT3ODkDCE</SpotifyLink>
+    <Description>descriptions/ANOTHER ONE.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Aint No Fun.png</CoverUrl>
+    <Name>Ain’t No Fun</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/3dJ5oJaFMMsIsBz1nU4wk6</SpotifyLink>
+    <Description>descriptions/Aint No Fun.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Activated.png</CoverUrl>
+    <Name>Activated</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/5y7fIyD1TdHccBydtvRxzt</SpotifyLink>
+    <Description>descriptions/Activated.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/All The Smoke.png</CoverUrl>
+    <Name>All The Smoke (Landy Remix)</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/2eZ5Lfy6uJTKaXYTQErMN5</SpotifyLink>
+    <Description>descriptions/All The Smoke.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/All the Smoke.png</CoverUrl>
+    <Name>All the Smoke</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/0N6FHcZaScT0eCiBNfP3qd</SpotifyLink>
+    <Description>descriptions/All the Smoke.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Big Burna.png</CoverUrl>
+    <Name>Big Burna</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/2uG3PrRbukgoFFBCrOvVQJ</SpotifyLink>
+    <Description>descriptions/Big Burna.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Big Burna.png</CoverUrl>
+    <Name>Big Burna (Instrumental)</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/6ey7bzXyhPykyDiHcTvo15</SpotifyLink>
+    <Description>descriptions/Big Burna.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Big Daddy Wiz.png</CoverUrl>
+    <Name>Big Daddy Wiz</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/3uN1rbML3QpLSYVWMcrASW</SpotifyLink>
+    <Description>descriptions/Big Daddy Wiz.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Bad Ass Bitches.png</CoverUrl>
+    <Name>Bad Ass Bitches</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/59m6OpnjZhN7bCVAAnUPqO</SpotifyLink>
+    <Description>descriptions/Bad Ass Bitches.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Breath Control.png</CoverUrl>
+    <Name>Breath Control</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/6mrRq7eWSz9KRZZ5jdiUx1</SpotifyLink>
+    <Description>descriptions/Breath Control.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Bye Haters.png</CoverUrl>
+    <Name>Bye Haters</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/5TGbOGzv6ET0uTfnSoscWt</SpotifyLink>
+    <Description>descriptions/Bye Haters.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Backseat.png</CoverUrl>
+    <Name>Backseat</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/5EQc1JUIPl55hL4TbsFItk</SpotifyLink>
+    <Description>descriptions/Backseat.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Don't Text Don't Call.png</CoverUrl>
+    <Name>Don't Text Don't Call</Name>
+    <Year>2023</Year>
+    <SpotifyLink>https://open.spotify.com/album/1rAWTywOSeej6kpubeqIY7</SpotifyLink>
+    <Description>descriptions/Don't Text Don't Call.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/DIRTY WHITE VANS.png</CoverUrl>
+    <Name>DIRTY WHITE VANS</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/5jODAtLZwHOfDaOWprFtZL</SpotifyLink>
+    <Description>descriptions/DIRTY WHITE VANS.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Dont Change You.png</CoverUrl>
+    <Name>Don’t Change You</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/3s98mWtNuEOpdOxyvjN87k</SpotifyLink>
+    <Description>descriptions/Dont Change You.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Drums Drums Drums.png</CoverUrl>
+    <Name>Drums Drums Drums</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/3zmvZQIkyfdTt2uzirCx4M</SpotifyLink>
+    <Description>descriptions/Drums Drums Drums.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Everything New.png</CoverUrl>
+    <Name>Everything New</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/344kjklmnaNNyXwMP0OYPi</SpotifyLink>
+    <Description>descriptions/Everything New.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Girl Next Door (Remix).png</CoverUrl>
+    <Name>Girl Next Door (Remix)</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/2bD8kV1ZBg77cj39B1Wino</SpotifyLink>
+    <Description>descriptions/Girl Next Door.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Girl Next Door.png</CoverUrl>
+    <Name>Girl Next Door</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/57g2B21B4dHEP3vgrox6Rk</SpotifyLink>
+    <Description>descriptions/Girl Next Door.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/How The Story Goes.png</CoverUrl>
+    <Name>How The Story Goes</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/3Lh9rO1ivLNkrRr7iIAiEv</SpotifyLink>
+    <Description>descriptions/How The Story Goes.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/How We Do It.png</CoverUrl>
+    <Name>How We Do It</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/32wvYHKu2JsNPZ3t1HTvgO</SpotifyLink>
+    <Description>descriptions/How We Do It.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Iced Out Necklace.png</CoverUrl>
+    <Name>Iced Out Necklace</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/2lsir2p46AysC4SQpfaiwc</SpotifyLink>
+    <Description>descriptions/Iced Out Necklace.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Justice (Get Up, Stand Up).png</CoverUrl>
+    <Name>Justice (Get Up, Stand Up)</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/0zZhdEIwCXO6hQqIZWxWuC</SpotifyLink>
+    <Description>descriptions/Justice (Get Up, Stand Up).rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Jalapeno.png</CoverUrl>
+    <Name>Jalapeno</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/5Un0k5MoNP9qALr7VcOVci</SpotifyLink>
+    <Description>descriptions/Jalapeno.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/KHALIFA MODE.png</CoverUrl>
+    <Name>KHALIFA MODE</Name>
+    <Year>2023</Year>
+    <SpotifyLink>https://open.spotify.com/album/0i5HsCJw4ZPoxIVBPSGH8Z</SpotifyLink>
+    <Description>descriptions/KHALIFA MODE.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Memory Lane.png</CoverUrl>
+    <Name>Memory Lane</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/67hR1a7A7BwmSTrjCU20td</SpotifyLink>
+    <Description>descriptions/Memory Lane.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Million Dollar Moment.png</CoverUrl>
+    <Name>Million Dollar Moment</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/1kEtBar8qV14Hv6BZeNmp0</SpotifyLink>
+    <Description>descriptions/Million Dollar Moment.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Lie To Me.png</CoverUrl>
+    <Name>Never Lie</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/2CcWEvRskHFkkpaKwXU28j</SpotifyLink>
+    <Description>descriptions/Never Lie.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Ordinary Life.png</CoverUrl>
+    <Name>Ordinary Life</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/3KNKX0nMPYJXvpRdsEp23D</SpotifyLink>
+    <Description>descriptions/Ordinary Life.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/One Whole Day.png</CoverUrl>
+    <Name>One Whole Day</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/4ZdRvkHcJzmDhweKxFdjUw</SpotifyLink>
+    <Description>descriptions/One Whole Day.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Pose.png</CoverUrl>
+    <Name>Pose</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/4BExQf4XQxKdT1NYyjtyR8</SpotifyLink>
+    <Description>descriptions/Pose.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Put You On.png</CoverUrl>
+    <Name>Put You On</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/4lPqGGHawhkuGYQAZWsDbw</SpotifyLink>
+    <Description>descriptions/Put You On.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Pop That Trunk.png</CoverUrl>
+    <Name>Pop That Trunk</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/6rS5hgwbOe6tRMic70hiaE</SpotifyLink>
+    <Description>descriptions/Pop That Trunk.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/POV.png</CoverUrl>
+    <Name>POV</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/2coX3IOqQv11qzewrrNJ97</SpotifyLink>
+    <Description>descriptions/POV.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Retail.png</CoverUrl>
+    <Name>Retail</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/4B44DvNTxrhxhmkM03PM9v</SpotifyLink>
+    <Description>descriptions/Retail.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/SH SH SH.png</CoverUrl>
+    <Name>SH SH SH</Name>
+    <Year>2023</Year>
+    <SpotifyLink>https://open.spotify.com/album/1xHwoTd8QTaQyWKlMTdZ6J</SpotifyLink>
+    <Description>descriptions/SH SH SH.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Sweet Yamz.png</CoverUrl>
+    <Name>Sweet Yamz</Name>
+    <Year>2022</Year>
+    <SpotifyLink>https://open.spotify.com/album/6tbFMHmL0SeO4dNv4W9u58</SpotifyLink>
+    <Description>descriptions/Sweet Yamz.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Si Me Gano Un Grammy.png</CoverUrl>
+    <Name>Si Me Gano Un Grammy</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/1PAetK4CaUB5ZxuISxrd8i</SpotifyLink>
+    <Description>descriptions/Si Me Gano Un Grammy.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Substance.png</CoverUrl>
+    <Name>Substance (We Woke Up)</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/231tj6pKyf7vpWHiT99PT3</SpotifyLink>
+    <Description>descriptions/Substance.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/So High.png</CoverUrl>
+    <Name>So High</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/3X42cq0ppTHylj6NVb6vGw</SpotifyLink>
+    <Description>descriptions/So High.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Santos Party House.png</CoverUrl>
+    <Name>Santos Party House</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/2LAIzdrNAa8cHandGdqjL6</SpotifyLink>
+    <Description>descriptions/Santos Party House.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Toxic.png</CoverUrl>
+    <Name>Toxic</Name>
+    <Year>2023</Year>
+    <SpotifyLink>https://open.spotify.com/album/5zZXueuJV27tGdBeMxn4Zi</SpotifyLink>
+    <Description>descriptions/Toxic.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Too Late.png</CoverUrl>
+    <Name>Too Late</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/6wOICOAKDg5iHCyINokKDD</SpotifyLink>
+    <Description>descriptions/Too Late.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/The Thrill.png</CoverUrl>
+    <Name>The Thrill</Name>
+    <Year>2020</Year>
+    <SpotifyLink>https://open.spotify.com/album/4NtEHyzC02jvTLMERHn6Rw</SpotifyLink>
+    <Description>descriptions/The Thrill.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Used To Be (Remix).png</CoverUrl>
+    <Name>Used To Be (Remix)</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/4GXnwBU0KQtTHfwnjBYMim</SpotifyLink>
+    <Description>descriptions/Used To Be.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Used To Be.png</CoverUrl>
+    <Name>Used To Be</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/06LLUJBC26sXPATpd70hEH</SpotifyLink>
+    <Description>descriptions/Used To Be.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+  <Single>
+    <CoverUrl>covers/Yea Yup.png</CoverUrl>
+    <Name>Yea Yup</Name>
+    <Year>2021</Year>
+    <SpotifyLink>https://open.spotify.com/album/2ZxSI6SfBa0pd0ofJ1Xmhz</SpotifyLink>
+    <Description>descriptions/Yea Yup.rtf</Description>
+    <DateAdded>2023-03-23T20:48:36</DateAdded>
+  </Single>
+</ArrayOfSingle>
